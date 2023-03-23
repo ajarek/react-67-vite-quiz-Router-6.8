@@ -1,16 +1,23 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Error from './pages/Error/Error'
 import Dashboard from './pages/Dashboard/Dashboard'
+import Start from './pages/Start/Start'
 import Main from './layouts/Main/Main'
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Main />,
-    // loader: mainLoader,
     errorElement: <Error />,
     children: [
       {
         index: true,
+        element: <Start />,
+        // loader: dashboardLoader,
+        // action: dashboardAction,
+        errorElement: <Error />,
+      },
+      {
+        path: '/dashboard',
         element: <Dashboard />,
         // loader: dashboardLoader,
         // action: dashboardAction,
@@ -18,7 +25,9 @@ const router = createBrowserRouter([
       },
      
     ],
+    
   },
+  
 ])
 
 function App() {
