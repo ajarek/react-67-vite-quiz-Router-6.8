@@ -10,14 +10,14 @@ const Result = () => {
       <div
         className='result-wrapper'
         style={
-          points >= 50
+          (points/data.length)*100 >= 50
             ? { backgroundColor: '#198754' }
             : { backgroundColor: '#dc3545' }
         }
       >
         <h3>
-          {' '}
-          Your score is {points} out of {data.length * 10}
+          
+          Twój wynik to {(points/data.length)*100}% na 100
         </h3>
         <Link
           className='link'

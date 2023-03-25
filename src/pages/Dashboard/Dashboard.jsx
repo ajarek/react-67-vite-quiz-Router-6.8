@@ -15,7 +15,7 @@ const Dashboard = () => {
     setIndex(index + 1)
     if (index + 2 === data.length) {
       e.target.style.background = '#198754'
-      e.target.textContent = 'Show Result'
+      e.target.textContent = 'Pokaż wynik 😓'
     }
     if (index + 2 > data.length) {
       navigate('/result')
@@ -43,7 +43,7 @@ const Dashboard = () => {
         if (e.target.textContent === correctAnswer) {
           e.target.style.background = '#198754'
           disabledButton(answers)
-          setPoints(points + 10)
+          setPoints(points + 1)
         } else {
           e.target.style.background = '#dc3545'
           disabledButton(answers)
@@ -69,7 +69,7 @@ const Dashboard = () => {
           className='next'
           onClick={nextQuestion}
         >
-          Next Question
+          Następne Pytanie ▷
         </button>
       </div>
     </div>

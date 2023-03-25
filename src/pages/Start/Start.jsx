@@ -4,7 +4,7 @@ import './Start.css'
 const Start = () => {
   return (
     <div className='start'>
-      <h1>Basic React JS Quiz</h1>
+      <h1>Quiz z wiedzy ogólnej.</h1>
       <Link
         className='link'
         to={'/dashboard'}

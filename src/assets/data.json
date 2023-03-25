@@ -1,112 +1,257 @@
-[
+[{
+  "id":"01",
+  "question": "Stolica Hiszpanii, to:", 
+  "options": ["Madryt", "Warszawa", "Barcelona","Tokio"],  
+  "answer": "Madryt"},  
+  
   {
-      "id": "01",
-      "question" : "Which of the following is the correct name of React.js?",
-      "options": [
-          "React",
-          "React.js",
-          "ReactJS",
-          "All of the above"
-      ],
-      "answer": "All of the above"
-  },
+  "id":"02",
+  "question": "Objętość sześcianu o boku 6 cm, wynosi:",
+  "options": ["36", "216", "18","64"],
+  "answer": "216"},
+  
   {
-      "id": "02",
-      "question" : "Which of the following are the advantages of React.js?",
-      "options": [
-          "React.js can increase the application's performance with Virtual DOM.",
-          "React.js is easy to integrate with other frameworks such as Angular, BackboneJS since it is only a view library.",
-          "React.js can render both on client and server side.",
-          "All of the above"
-      ],
-      "answer": "All of the above"
-  },
-  {
-      "id": "03",
-      "question" : "Which of the following is not a disadvantage of React.js?",
-      "options": [
-          "React.js has only a view layer. We have put your code for Ajax requests, events and so on.",
-          "The library of React.js is pretty large.",
-          "The JSX in React.js makes code easy to read and write.",
-          "The learning curve can be steep in React.js."
-      ],
-      "answer": "The JSX in React.js makes code easy to read and write."
-  },
-  {
-      "id": "04",
-      "question" : "Which of the following command is used to install create-react-app?",
-      "options": [
-          "npm install -g create-react-app",
-          "npx create-react-app my-app",
-          "npm install create-react-app",
-          "npm install -f create-react-app"
-      ],
-      "answer": "npx create-react-app my-app"
-  },
-  {
-      "id": "05",
-      "question" : "What of the following is used in React.js to increase performance?",
-      "options": [
-          "Original DOM",
-          "Virtual DOM",
-          "Both A and B.",
-          "None of the above."
-      ],
-      "answer": "Virtual DOM"
-  },
-  {
-      "id": "06",
-      "question" : "What is the default port where webpack-server runs?",
-      "options": [
-          "3000",
-          "8080",
-          "3030",
-          "6060"
-      ],
-      "answer": "3000"
-  },
-  {
-      "id": "07",
-      "question" : "How many numbers of elements a valid react component can return?",
-      "options": [
-          "1",
-          "2",
-          "3",
-          "Unlimited"
-      ],
-      "answer": "1"
-  },
-  {
-      "id": "08",
-      "question" : "What is the declarative way to render a dynamic list of components based on values in an array?",
-      "options": [
-          "Using the reduce array method",
-          "Using the <Each /> component",
-          "Using the Array.map() method",
-          "With a for/while loop"
-      ],
-      "answer": "Using the Array.map() method"
-  },
-  {
-      "id": "09",
-      "question" : "What is a state in React?",
-      "options": [
-          "A permanent storage.",
-          "Internal storage of the component.",
-          "External storage of the component.",
-          "None of the above."
-      ],
-      "answer": "Internal storage of the component."
-  },
-  {
-      "id": "10",
-      "question" : "What are the two ways to handle data in React?",
-      "options": [
-          "State & Props",
-          "Services & Components",
-          "State & Services",
-          "State & Component"
-      ],
-      "answer": "State & Props"
-  }
-]
+    "id":"03",
+  "question": "Symbol pierwiastka Helu, to:",
+  "options": ["Fe", "H", "He","Hel"],
+  "answer": "He"},
+{
+  "id":"04",
+  "question": "Przekątna kwadratu o boku 4 cm,to:",
+  "options": ["4√2", "16", "16√2","4"],
+  "answer": "4√2"},
+{
+  "id":"05",
+  "question": "Jednostka ciężaru,to:",
+  "options": ["newton", "kilogram", "kelvin","gram"],
+  "answer": "newton"},
+{
+  "id":"06",
+  "question": "Laureat Nobla,to:",
+  "options": ["Mickiewicz", "Tuwim", "Miłosz","Kochanowski"],
+  "answer": "Miłosz"},
+{
+  "id":"07",
+  "question": "Człowiek rządzący Polską,to:",
+  "options": ["Duda", "Morawiecki", "Kaczyński","Tusk"],
+  "answer": "Kaczyński"},
+{
+  "id":"08",
+  "question": "Przeciwprostokątna w trójkącie o bokach 3 i 4 cm ma długość:",
+  "options": ["7", "5", "12","8"],
+  "answer": "5"},
+{
+  "id":"09",
+  "question": "Energia potencjalna 1 kg na wysokości 5 m to:",
+  "options": ["5J", "25J", "50J","15J"],
+  "answer": "50J"},
+{
+  "id":"10",
+  "question": "Energia kinetyczna 1 kg o prędkości 6m/s,to:",
+  "options": ["60J", "20J", "18J","24J"],
+  "answer": "18J"},
+{
+  "id":"11",
+  "question": "Pokazująca Faka posłom,to:",
+  "options": ["Kidawa-Błonska", "Lichocka", "Witek","Jachira"],
+  "answer": "Lichocka"},
+{
+  "id":"12",
+  "question": "Nauczyciel Platona,to:",
+  "options": ["Archimedes", "Sokrates", "Arystoteles","Pitagoras"],
+  "answer": "Sokrates"},
+{
+  "id":"13",
+  "question": "Boski budowniczy wg Platona,to:",
+  "options": ["Kratylos", "Fedon", "Demiurg","Pitagoras"],
+  "answer": "Demiurg"},
+{
+  "id":"14",
+  "question": "Miasto Platona,to:",
+  "options": [" Rzym", "Ateny", "Kair","Watykan"],
+  "answer": "Ateny"},
+{
+  "id":"15",
+  "question": "Przyśpieszenie,to:",
+  "options": ["skalar", "wektor", "prędkość","stała"],
+  "answer": "wektor"},
+{
+  "id":"16",
+  "question": "W ruchu jednostajnym prostoliniowym nie zmienia się:",
+  "options": ["czas", "droga", "prędkość","przyśpieszenie"],
+  "answer": "prędkość"},
+{
+  "id":"17",
+  "question": "Miejsce zerowe funkcji y=4x-2 to:",
+  "options": ["0", "2", "0.5","-0.5"],
+  "answer": "0.5"},
+{
+  "id":"18",
+  "question": "Funkcja y=-5x+3 jest:",
+  "options": ["stała", "rosnąca", "malejąca","monotoniczna"],
+  "answer": "malejąca"},
+{
+  "id":"19",
+  "question": "Kąt półpełny ma miarę w stopniach:",
+  "options": ["90", "180", "45","360"],
+  "answer": "180"},
+{
+
+  "id":"20",
+  "question": "Trójkąt prostokątny równoramienny ma kąty :",
+  "options": ["120_30_30", "90_30_60","90_45_45","15_45_120"],
+  "answer": "90_45_45"},
+{
+  "id":"21",
+  "question": "Kto zabił słonia Topsy W eksperymencie z prądem w 1903 roku?",
+  "options": ["Volt", "Edison","Tesla","Watt"],
+  "answer": "Edison"},
+{
+  "id":"22",
+  "question": "question: Gaz rozweselający to :",
+  "options": ["Tlenek_odoru", "Tlenek_azotu","Podtlenek_azotu","Azotan_srebra"],
+  "answer": "Podtlenek_azotu"},
+{
+  "id":"23",
+  "question": "Które promieniowanie ma najniższą częstotliwość fal? :",
+  "options": ["podczerwień", "rentgenowskie","ultrafioletowe","gama"],
+  "answer": "podczerwień"},
+{
+  "id":"24",
+  "question": "Kto powiedział 'Wiem , że nic nie wiem'? :",
+  "options": ["Demokryt", "Sokrates","Platon","Pitagoras"],
+  "answer": "Sokrates"},
+{
+  "id":"25",
+  "question": "Który filozof mieszkał w beczce? :",
+  "options": ["Archimedes", "Diogenes","Epikur","Platon"],
+  "answer": "Diogenes"},
+{
+  "id":"26",
+  "question": "Kto jest twórcą trójpodziału władzy :",
+  "options": ["Kartezjusz", "Monteskiusz","Demokryt","Satrapa"],
+  "answer": "Monteskiusz"},
+{
+  "id":"27",
+  "question": "Kto pierwszy zmierzyŁ piramidę za pomocą cienia? :",
+  "options": ["Archimedes", "Tales","Pitagoras","Monteskiusz"],
+  "answer": "Tales"},
+{
+  "id":"28",
+  "question": "Przez który kraj przechodzi równik? :",
+  "options": ["Kenia", "Angola","Etiopia","Maroko"],
+  "answer": "Kenia"},
+{
+  "id":"29",
+  "question": "W jakim województwie położony jest Radom?:",
+  "options": ["Podlaskim", "Świętokrzyskim","Mazowieckim","Radomskim"],
+  "answer": "Mazowieckim"},
+{
+  "id":"30",
+  "question": "Włócznię którego świętego posiadał Karol Wielki? :",
+  "options": ["Jerzego", "Maurycego","Andrzeja","Piotra"],
+  "answer": "Maurycego"},
+{
+  "id":"31",
+  "question": "W którym roku uruchomiono wyszukiwarkę Google? :",
+  "options": ["1998", "2004","2001","2000"],
+  "answer": "1998"},
+{
+  "id":"32",
+  "question": "Najdłuższa rzeka Europy to :",
+  "options": ["Ren", "Wołga","Dunaj","Sekwana"],
+  "answer": "Wołga"},
+{
+  "id":"33",
+  "question": "Największa pustynia świata to :",
+  "options": ["Gobi", "Sahara","Arabska","Błędowska"],
+  "answer": "Sahara"},
+{
+  "id":"34",
+  "question": "Najgłębsze jezioro świata to :",
+  "options": ["Bajkał", "Ontario","Tanganika","Hańcza"],
+  "answer": "Bajkał"},
+{
+  "id":"35",
+  "question": "Logarytm przy podstawie 2 z 2 jest równa :",
+  "options": ["4", "1/2","2","1"],
+  "answer": "1"},
+
+ {
+  "id":"36",
+  "question": "W  banku prowizja od kredytów  była równa 4%. Bank obniżył prowizję od kredytów o 1 punkt procentowy. Oznacza to, że prowizja od kredytów  zmniejszyła się o :",
+  "options": ["1%", "25%","33%","45"],
+  "answer": "25%"},
+{
+  "id":"37",
+  "question": "Równość 1/4+1/5+1/a=1 jest prawdziwa dla a równego:",
+  "options": ["9/11", "11/20","20/11","11/9"],
+  "answer": "20/11"},
+{
+  "id":"38",
+  "question": "Para liczb x = 2 i y = 2 jest rozwiązaniem układu równań {ax+y=4 i -2x+3y=2a} dla a równego:",
+  "options": ["1", "-1","2","0"],
+  "answer": "1"},
+{
+  "id":"39",
+  "question": "Miejscem zerowym funkcji liniowej ƒ określonej wzorem f(x)=3(x+1)-6√3 jest liczba :",
+  "options": ["1-6√3", "2√3-1","3-6√3","0"],
+  "answer": "2√3-1"},
+
+{
+  "id":"40",
+  "question": "Dany jest romb o boku długości 4 i kącie rozwartym 150°.Pole tego rombu jest równe :",
+  "options": ["12", "8","2√16","9"],
+  "answer": "8"},
+{
+  "id":"41",
+  "question": "Licencja wolnego i otwartego oprogramowania to:° . ",
+  "options": ["Trial", "OEM","GNU_GPL","FREE"],
+  "answer": "GNU_GPL"},
+{
+  "id":"42",
+  "question": "Którego protokołu należy użyć do odbioru poczty elektronicznej ze swojego serwera :",
+  "options": ["POP3", "SMPT","FTP","HTML"],
+  "answer": "POP3"},
+{
+  "id":"43",
+  "question": "Który protokół obsługuje rozproszone wysyłanie i pobieranie plików ?",
+  "options": ["FTP", "BitTorrent","HTTPS","FTP"],
+  "answer": "BitTorrent"},
+{
+  "id":"44",
+  "question": "Do czego służy hiperłącze?",
+  "options": ["do_otwierania_stron_WWW", "do_przyśpieszania_internetu","do_wysyłania_filmów","do_logowania"],
+  "answer": "do_otwierania_stron_WWW"},
+{
+  "id":"45",
+  "question": "Kod binarny składa się z : ",
+  "options": ["a,o,z", "0,1","12345678","2"],
+  "answer": "0,1"},
+{
+  "id":"46",
+  "question": "Co oznacz skrót LAN? ",
+  "options": ["Low_Assosiation_Net", "Local_Area_Network","Long_Asistance_Normality","Lancet"],
+  "answer": "Local_Area_Network"},
+{
+  "id":"47",
+  "question": "Dlaczego kropla deszczu spada ze stałą prędkością 5m/s ? ",
+  "options": ["siły oporu ruchu i siła ciężkości kropli równoważą się.", "siły oporu ruchu są mniejsze od siły grawitacji działającej na kroplę.","wypadkowa sił działających na kroplę jest stała i zwrócona pionowo w dół.","wyhamowuje ją grawitacja Księżyca"],
+  "answer": "siły oporu ruchu i siła ciężkości kropli równoważą się."},
+{
+  "id":"48",
+  "question": "Sła o wartości 1N nada  przyśpieszenie 2m/s^2 ciału o masie: ",
+  "options": ["3", "0.25","0.5","9.8"],
+  "answer": "0.5"},
+{
+  "id":"49",
+  "question": "Pasażer stojącego na przystanku autobusu siedzi w fotelu przodem do kierowcy. Gdy autobus ruszy gwałtownie, pasażer:",
+  "options": ["przechyli się w stronę kierowcy (do przodu pojazdu)", " nie odczuje żadnego oddziaływania ","zostanie dociśnięty do oparcia fotela","przechyli się do okna"],
+  "answer": "zostanie dociśnięty do oparcia fotela"},
+{
+  "id":"50",
+  "question": " Ciężar człowieka o masie 80 kg wynosi: ",
+  "options": ["800N", "80kg","8kN","0.8MN"],
+  "answer": "800N"}
+
+ ]
