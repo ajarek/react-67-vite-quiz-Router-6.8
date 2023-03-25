@@ -9,6 +9,7 @@ const Dashboard = () => {
   const currentData = data[index]
   const correctAnswer = currentData.answer
   const navigate = useNavigate()
+
   const nextQuestion = (e) => {
     e.target.className
     setIndex(index + 1)
@@ -21,9 +22,11 @@ const Dashboard = () => {
     }
     enabledButton()
   }
+
   const disabledButton = (nodes) => {
     return nodes.forEach((node) => (node.disabled = true))
   }
+  
   const enabledButton = () => {
     const answers = document.querySelectorAll('.answer')
     return answers.forEach((node) => {

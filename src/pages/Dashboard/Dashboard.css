@@ -53,3 +53,12 @@
   cursor: pointer;
   text-align: left;
 }
+@media (max-width: 540px) {
+  .dashboard .card {
+    width: 100vw;
+    height: 100vh;
+  }
+  .dashboard .card .answer,.dashboard .card .question p { 
+    font-size: 0.9rem;
+  }
+}
