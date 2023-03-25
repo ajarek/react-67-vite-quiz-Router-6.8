@@ -1,15 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 :root {
---dark:#212529;
---blue:#1e5dba;
---red:#dc3545;
---green:#198754;
---white:#f8f9fa;
+  --dark: #212529;
+  --blue: #1e5dba;
+  --red: #dc3545;
+  --green: #198754;
+  --white: #f8f9fa;
 }
 body {
   margin: 0;
