@@ -1,9 +1,11 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState,useContext } from 'react'
+import { AppContext } from '../../App'
 import './Dashboard.css'
 import {Link,  useNavigate} from 'react-router-dom'
 import data from '../..//assets/data.json'
 const Dashboard = () => {
   const [index,setIndex]=useState(0)
+  const { points,setPoints } = useContext(AppContext)
   const currentData=data[index] 
   const correctAnswer=currentData.answer
   const navigate = useNavigate();
@@ -40,6 +42,7 @@ answers.forEach((answer) => {
     if(e.target.textContent===correctAnswer){
       e.target.style.background='#198754'
       disabledButton(answers)
+      setPoints(points+10)
     }
       else{
         e.target.style.background='#dc3545'
@@ -51,7 +54,8 @@ answers.forEach((answer) => {
   
 })
 
-},[correctAnswer])
+},[correctAnswer,points])
+
   return (
     <div className='dashboard'>
       <div className="card">

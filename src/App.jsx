@@ -1,9 +1,11 @@
+import{ createContext,useState } from 'react'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Error from './pages/Error/Error'
 import Dashboard from './pages/Dashboard/Dashboard'
 import Start from './pages/Start/Start'
 import Result from './pages/Result/Result'
 import Main from './layouts/Main/Main'
+export const AppContext = createContext()
 const router = createBrowserRouter([
   {
     path: '/',
@@ -24,26 +26,24 @@ const router = createBrowserRouter([
         // action: dashboardAction,
         errorElement: <Error />,
       },
-    {
-      path: '/result',
+      {
+        path: '/result',
         element: <Result />,
         // loader: dashboardLoader,
         // action: dashboardAction,
         errorElement: <Error />,
       },
-     
     ],
-    
   },
-  
 ])
 
 function App() {
-  
-
+  const [points,setPoints]=useState(0)
   return (
-    <div className="App">
-     <RouterProvider router={router} />
+    <div className='App'>
+      <AppContext.Provider value={{ points,setPoints }}>
+        <RouterProvider router={router} />
+      </AppContext.Provider>
     </div>
   )
 }
