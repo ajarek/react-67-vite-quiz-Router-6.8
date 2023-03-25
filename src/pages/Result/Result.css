@@ -1,0 +1,27 @@
+.result{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.result-wrapper{
+  width: 320px;
+  height: 180px;
+  background-color:#dc3545 ;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.result-wrapper .link button{
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: none;
+  box-shadow: 3px 3px 0px rgba(255,255,255,0.3);
+ 
+}
+
+.result-wrapper .link button:active{
+  transform: translateX(1px) translateY(1px);
+  box-shadow: 0px 0px 0px rgba(255,255,255,0.3);
+}

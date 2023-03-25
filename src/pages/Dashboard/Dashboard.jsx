@@ -15,7 +15,7 @@ const nextQuestion=(e) => {
    e.target.textContent='Show Result'
   }
   if(index+2>data.length){
-   navigate('/')
+   navigate('/result')
   }
   enabledButton()
 }

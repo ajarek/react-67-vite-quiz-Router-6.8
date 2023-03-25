@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Error from './pages/Error/Error'
 import Dashboard from './pages/Dashboard/Dashboard'
 import Start from './pages/Start/Start'
+import Result from './pages/Result/Result'
 import Main from './layouts/Main/Main'
 const router = createBrowserRouter([
   {
@@ -19,6 +20,13 @@ const router = createBrowserRouter([
       {
         path: '/dashboard',
         element: <Dashboard />,
+        // loader: dashboardLoader,
+        // action: dashboardAction,
+        errorElement: <Error />,
+      },
+    {
+      path: '/result',
+        element: <Result />,
         // loader: dashboardLoader,
         // action: dashboardAction,
         errorElement: <Error />,
